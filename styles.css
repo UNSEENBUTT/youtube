@@ -1,0 +1,166 @@
+
+       
+       p {
+            font-family: roboto,arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .thumbnail {
+            width: 100%;
+        }
+        .search-box {
+            font-size: 20px;
+            height: 35px;
+            flex: 1;
+            padding-left: 10px;
+            font-size: 16px;
+            border-width: 1px;
+            border-radius: 3px;
+            border-style: solid;
+            border-color: rgb(124,124,124);
+            box-shadow: inset 1px 2px 3px rgba(0,0,0,0.10);
+            width: 0;
+        }
+        .search-box::placeholder {
+            font-family: Roboto,arial ;
+        } 
+        
+        .H-1 {
+            display:inline-block;
+            width: 50px;
+            vertical-align: top;
+            margin-top: 5px;
+        }
+        .H-2 {
+            display: inline-block;
+            width: 200px;
+            margin-top: 5px;
+            
+        }
+        .profile-pic {
+            width: 50px;
+            border-radius: 30px;
+        }
+        .vedio-title {
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        .vedio-author{
+            font-size: 12px;
+            color: rgb(99,99,99);
+            margin-bottom: 4px;
+        }
+        .vedio-stats {
+            font-size: 12px;
+            color: rgb(99,99,99);
+            margin-top: 0;  
+            margin-bottom: 40px;      
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40;
+        }
+        .header {
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            z-index: 100;
+        }
+        .sidebar {
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            left: 0;
+            width:  72px;
+            background-color: white;
+
+        }
+        .left-section {
+            display: flex;
+            align-items: center;
+        }
+        .middle-section {
+            margin-left: 70px;
+            flex: 1;
+            margin-right: 35px;
+            max-width: 500px;
+            display: flex;
+            align-items: center;
+        }
+        .right-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 180px;
+            flex-shrink: 0;
+        }
+        .hamburger-menu {
+            height:24px;
+            margin-left: 24px;
+            margin-right:  24px;
+        }
+        .youtube-logo {
+            height:20px;
+        }
+        .search-button {
+            height: 39px;
+            width: 66px;
+            border-style: solid;
+            border-width: 1px;
+            color: rgb(240,240,240);
+            border-color : rgb(124, 124, 124);
+            margin-left: -1px
+        }
+        .voice-button {
+            height: 39px;
+            width: 40px;
+            color: rgb(240,240,240);
+            border-style: none;
+            border-radius: 17px;
+            margin-left: 10px;
+        }
+        .search-icon {
+            height: 25px;
+            margin-top: 4px;
+        }
+        .voice-icon {
+            margin-top: 3px;
+            height: 24px;
+        }
+        .upload-icon,
+        .youtube-apps-icon,
+        .notifications-icon,
+        .top-user-profile {
+            height: 24px;
+        }
+        .top-user-profile {
+            height: 34px;
+            border-radius: 16px;
+        }
+        .V-1 {
+            position: relative;
+        }
+        .vedio-time {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: black;
+            color: white;
+            font-family: roboto, arial;
+            font-size: 12px;
+            padding: 4px;
+            font-weight: 500;
+            border-radius: 2px;
+        }
