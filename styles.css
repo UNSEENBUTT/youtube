@@ -120,7 +120,8 @@
             border-width: 1px;
             color: rgb(240,240,240);
             border-color : rgb(124, 124, 124);
-            margin-left: -1px
+            margin-left: -1px;
+            cursor: pointer;
         }
         .voice-button {
             height: 39px;
@@ -129,6 +130,7 @@
             border-style: none;
             border-radius: 17px;
             margin-left: 10px;
+            cursor: pointer;
         }
         .search-icon {
             height: 25px;
@@ -143,10 +145,17 @@
         .notifications-icon,
         .top-user-profile {
             height: 24px;
+            padding: 7px;
+            border-radius: 44px;
+        }
+        .upload-icon:hover,
+        .youtube-apps-icon:hover,
+        .notifications-icon:hover {
+            background-color: lightgray;
         }
         .top-user-profile {
             height: 34px;
-            border-radius: 16px;
+            border-radius: 30px;
         }
         .V-1 {
             position: relative;
@@ -169,8 +178,8 @@
         .notifications-count {
             position : absolute;
             background-color: rgb(201, 0, 0);
-            top : -5px;
-            right : -4px;
+            top : 1px;
+            right : 1px;
             color : white;
             padding : 3px 6px;
             border-radius: 13px;
